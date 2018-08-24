@@ -1,9 +1,9 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<title>Survey Form</title>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,700|News+Cycle' rel='stylesheet' type='text/css'>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 </head>
@@ -16,41 +16,46 @@
   <!-- Start Form -->
   <form id="survey-form">
     <div class="form-group">
-      <div class="col-md-12">
-          <p>1. Are you a parent or guardian of a child diagnosed with scoliosis?</p>
-            <input type="radio" class="form-check-input">Yes
-            <input type="radio" class="form-check-input">No
-          <p>2. Do you have scoliosis?</p>
-            <input type="radio" class="form-check-input">Yes
-            <input type="radio" class="form-check-input">No
-          <p>3. Have any of your extended family members been diagnosed with scoliosis?</p>
-            <input type="radio" class="form-check-input">Yes
-            <input type="radio" class="form-check-input">No
-          <p>4. Current age?</p>
+      <div class="col-md-12 form-check">
+        <p>1. Are you a parent or guardian of a child diagnosed with scoliosis?</p>
+        <input type="radio" class="form-check-input">Yes
+        <input type="radio" class="form-check-input">No
+        <p>2. Do you have scoliosis?</p>
+        <input type="radio" class="form-check-input">Yes
+        <input type="radio" class="form-check-input">No
+        <p>3. Have any of your extended family members been diagnosed with scoliosis?</p>
+        <input type="radio" class="form-check-input">Yes
+        <input type="radio" class="form-check-input">No
+        <p>4. Current age?</p>
+        <input type="text" class="form-control" id="age">
+        <p>5. About how old were you when you found out you had scoliosis?</p>
+        <input type="radio" class="form-check-input">Less than 9 years old
+        <input type="radio" class="form-check-input">9 to 14 years old
+        <input type="radio" class="form-check-input">More than 14 years old
+        <p>6. Who first noticed the curve?</p>
+        <input type="radio" class="form-check-input">I noticed it myself
+        <input type="radio" class="form-check-input">Parent or family member
+        <input type="radio" class="form-check-input">School screening program
+        <input type="radio" class="form-check-input">Healthcare exam by regular care provider
+        <input type="radio" class="form-check-input">Other
+        <p>7. How would you describe your curve when you first found out about your diagnosis?</p>
+        <input type="radio" class="form-check-input">Mild (less than 20 degrees)
+        <input type="radio" class="form-check-input">Moderate (20 -30 degrees)
+        <input type="radio" class="form-check-input">Moderate to Severe (30-50 degrees)
+        <input type="radio" class="form-check-input">Severe (greater than 50 degrees)
+        <p>8. Have you had treatment for scoliosis?</p>
+        <p>9. How would you describe your curve now? </p>
+        <input type="radio" class="form-check-input">Mild (less than 20 degrees)
+        <input type="radio" class="form-check-input">Moderate (20 -30 degrees)
+        <input type="radio" class="form-check-input">Moderate to Severe (30-50 degrees)
+        <input type="radio" class="form-check-input">Severe (greater than 50 degrees)
+        <input type="radio" class="form-check-input">I had surgery to correct scoliosis
+        <input type="radio" class="form-check-input">I had surgery without correction
+        <p>10. What could have been done differently or better?</p>
+        <input type="text" class="form-control" id="usr">
+      </div>
+    </div>
+  </form>
 
-          <p>5. About how old were you when you found out you had scoliosis?</p>
-            <input type="radio" class="form-check-input">Less than 9 years old
-            <input type="radio" class="form-check-input">9 to 14 years old
-            <input type="radio" class="form-check-input">More than 14 years old
-          <p>6. Who first noticed the curve?</p>
-          <input type="radio" class="form-check-input">I noticed it myself
-          <input type="radio" class="form-check-input">Parent or family member
-          <input type="radio" class="form-check-input">School screening program
-          <input type="radio" class="form-check-input">Healthcare exam by regular care provider
-          <input type="radio" class="form-check-input">Other
-          <p>7. How would you describe your curve when you first found out about your diagnosis?</p>
-          <p>8. Have you had treatment for scoliosis?</p>
-          <p>9. How would you describe your curve now? </p>
-          <p>10. What could have been done differently or better?</p>
-
-
-
-
-
-
-
-
-
-</body>
-
+  </body>
 </html>
