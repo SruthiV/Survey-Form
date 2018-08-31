@@ -1,10 +1,12 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
+  background-color: #313638;
 }
 
 #title {
   font-family: 'Raleway', serif;
+  color: #009FB7;
 }
 
 #description {
@@ -18,4 +20,18 @@ font-size: 15px;
 .button {
   width: 100px;
   margin: 0 auto;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.custom-button {
+  background-color: #FED766;
+  border-color: #FED766;
+}
+
+.btn-primary:hover {
+  background-color: #FED766;
+  border-color: #E7C45D;
 }
