@@ -29,6 +29,7 @@
         </div>
         <!-- End Name and Email -->
         <div class="col-md-12">
+          <div>
           <p>1. Are you a parent or guardian of a child diagnosed with scoliosis?</p>
           <input type="radio" name="radio-button">Yes
           <input type="radio">No
@@ -50,7 +51,21 @@
           <input type="radio">School screening program
           <input type="radio">Healthcare exam by regular care provider
           <input type="radio">Other
-          <p>7. How would you describe your curve when you first found out about your diagnosis?</p>
+          <div class="dropdown">
+            <p>7. How would you describe your curve when you first found out about your diagnosis?</p>
+
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    Describe Curve
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Mild (less than 20 degrees)</a>
+    <a class="dropdown-item" href="#">Moderate (20 -30 degrees)</a>
+    <a class="dropdown-item" href="#">Moderate to Severe (30-50 degrees)</a>
+    <a class="dropdown-item" href="#">Severe (greater than 50 degrees)</a>
+
+  </div>
+</div>
+
           <input type="radio">Mild (less than 20 degrees)
           <input type="radio">Moderate (20 -30 degrees)
           <input type="radio">Moderate to Severe (30-50 degrees)
